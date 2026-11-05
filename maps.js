@@ -1,0 +1,9 @@
+// Public administrative-area centers from OpenStreetMap Nominatim, checked 2026-09-11.
+export const mapRegions=[
+ {match:'성동',name:'서울 성동구 성수1가1동',lat:37.5416233,lon:127.0387072,bounds:[127.0259481,37.5334867,127.0520011,37.5493880]},
+ {match:'마포',name:'서울 마포구 연남동',lat:37.5626596,lon:126.9226107,bounds:[126.9164265,37.5575789,126.9282831,37.5678572]},
+ {match:'고양',name:'경기 고양시 일산동구',lat:37.6588,lon:126.775,bounds:[126.7324823,37.6256444,126.8560946,37.7370309]}
+];
+export const mapRegion=value=>mapRegions.find(r=>String(value).includes(r.match))||mapRegions[0];
+export function mapLinks(value){const r=mapRegion(value),q=encodeURIComponent(r.name);return [{name:'네이버 지도',key:'naver',url:'https://map.naver.com/p/search/'+q},{name:'카카오맵',key:'kakao',url:'https://map.kakao.com/link/search/'+q},{name:'Google Maps',key:'google',url:'https://www.google.com/maps/search/?api=1&query='+q}];}
+export function actualMap(value){const r=mapRegion(value),params=new URLSearchParams({bbox:r.bounds.join(','),layer:'mapnik',marker:r.lat+','+r.lon});return `<section class="actual-map"><div class="actual-map-heading"><b>실제 지역 지도</b><span>지역 중심</span></div><iframe title="${r.name} 실제 지도" src="https://www.openstreetmap.org/export/embed.html?${params.toString()}" loading="lazy" referrerpolicy="no-referrer"></iframe><p>${r.name}<small>표시된 핀은 지역 중심입니다. 차량·처리장 위치가 아니에요.</small></p><div class="map-provider-links">${mapLinks(value).map(p=>`<a class="map-provider ${p.key}" href="${p.url.replaceAll('&','&amp;')}" target="_blank" rel="noopener"><span aria-hidden="true">${p.key==='naver'?'N':p.key==='kakao'?'●':'G'}</span>${p.name}</a>`).join('')}</div><small class="map-source">© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap 기여자</a> · 지도를 움직이거나 확대해 보세요.</small></section>`;}

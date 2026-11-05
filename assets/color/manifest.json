@@ -1,0 +1,111 @@
+{
+  "repository": "https://github.com/microsoft/fluentui-emoji",
+  "style": "Color SVG",
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "license_source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE",
+  "icons": [
+    {
+      "semantic_name": "house",
+      "local_file": "house.svg",
+      "repository_path": "assets/House/Color/house_color.svg",
+      "source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/assets/House/Color/house_color.svg",
+      "download_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/House/Color/house_color.svg",
+      "style": "Color SVG"
+    },
+    {
+      "semantic_name": "herb",
+      "local_file": "herb.svg",
+      "repository_path": "assets/Herb/Color/herb_color.svg",
+      "source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/assets/Herb/Color/herb_color.svg",
+      "download_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Herb/Color/herb_color.svg",
+      "style": "Color SVG"
+    },
+    {
+      "semantic_name": "shopping-bags",
+      "local_file": "shopping-bags.svg",
+      "repository_path": "assets/Shopping bags/Color/shopping_bags_color.svg",
+      "source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/assets/Shopping%20bags/Color/shopping_bags_color.svg",
+      "download_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Shopping%20bags/Color/shopping_bags_color.svg",
+      "style": "Color SVG"
+    },
+    {
+      "semantic_name": "location",
+      "local_file": "location.svg",
+      "repository_path": "assets/Round pushpin/Color/round_pushpin_color.svg",
+      "source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/assets/Round%20pushpin/Color/round_pushpin_color.svg",
+      "download_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Round%20pushpin/Color/round_pushpin_color.svg",
+      "style": "Color SVG"
+    },
+    {
+      "semantic_name": "shield",
+      "local_file": "shield.svg",
+      "repository_path": "assets/Shield/Color/shield_color.svg",
+      "source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/assets/Shield/Color/shield_color.svg",
+      "download_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Shield/Color/shield_color.svg",
+      "style": "Color SVG"
+    },
+    {
+      "semantic_name": "bell",
+      "local_file": "bell.svg",
+      "repository_path": "assets/Bell/Color/bell_color.svg",
+      "source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/assets/Bell/Color/bell_color.svg",
+      "download_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bell/Color/bell_color.svg",
+      "style": "Color SVG"
+    },
+    {
+      "semantic_name": "delivery-truck",
+      "local_file": "delivery-truck.svg",
+      "repository_path": "assets/Delivery truck/Color/delivery_truck_color.svg",
+      "source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/assets/Delivery%20truck/Color/delivery_truck_color.svg",
+      "download_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Delivery%20truck/Color/delivery_truck_color.svg",
+      "style": "Color SVG"
+    },
+    {
+      "semantic_name": "gift",
+      "local_file": "gift.svg",
+      "repository_path": "assets/Wrapped gift/Color/wrapped_gift_color.svg",
+      "source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/assets/Wrapped%20gift/Color/wrapped_gift_color.svg",
+      "download_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Wrapped%20gift/Color/wrapped_gift_color.svg",
+      "style": "Color SVG"
+    },
+    {
+      "semantic_name": "mobile-phone",
+      "local_file": "mobile-phone.svg",
+      "repository_path": "assets/Mobile phone/Color/mobile_phone_color.svg",
+      "source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/assets/Mobile%20phone/Color/mobile_phone_color.svg",
+      "download_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Mobile%20phone/Color/mobile_phone_color.svg",
+      "style": "Color SVG"
+    },
+    {
+      "semantic_name": "package",
+      "local_file": "package.svg",
+      "repository_path": "assets/Package/Color/package_color.svg",
+      "source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/assets/Package/Color/package_color.svg",
+      "download_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Package/Color/package_color.svg",
+      "style": "Color SVG"
+    },
+    {
+      "semantic_name": "id-card",
+      "local_file": "id-card.svg",
+      "repository_path": "assets/Identification card/Color/identification_card_color.svg",
+      "source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/assets/Identification%20card/Color/identification_card_color.svg",
+      "download_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Identification%20card/Color/identification_card_color.svg",
+      "style": "Color SVG"
+    },
+    {
+      "semantic_name": "heart",
+      "local_file": "heart.svg",
+      "repository_path": "assets/Red heart/Color/red_heart_color.svg",
+      "source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/assets/Red%20heart/Color/red_heart_color.svg",
+      "download_url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Red%20heart/Color/red_heart_color.svg",
+      "style": "Color SVG"
+    },
+    {
+      "semantic_name": "chat",
+      "local_file": "chat.svg",
+      "source_url": "https://github.com/microsoft/fluentui-emoji/blob/main/assets/Speech%20balloon/Color/speech_balloon_color.svg",
+      "style": "Color SVG"
+    }
+  ]
+}
